@@ -45,7 +45,8 @@ void cadenaAMayusculas(char cad[])
     char aux;
     for(int i=0; cad[i] != '\n'; i++)
     {
-        cad[i]=cad[i]-32;
+        if(cad[i] >= 97 && cad[i] <= 122)
+            cad[i]=cad[i]-32;
     }
 }
 
