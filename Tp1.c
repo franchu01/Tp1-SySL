@@ -175,7 +175,7 @@ int main(){
 
     char cadenaAAgregar[100], caracterInsertar;
     int pos=0;
-    printf("Ingrese cadena\n");
+    printf("Ingrese cadena para ingresarle un caracter\n");
     fflush(stdin);
     fgets(cadenaAAgregar, sizeof(cadenaAAgregar), stdin);
     tamano = tamanoCadena(cadenaAAgregar);
