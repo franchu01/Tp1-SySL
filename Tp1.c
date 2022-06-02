@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Funcion para punto 1 - Funciona
+// Funcion para punto 1
 
 int tamanoCadena (char c[])
 {
@@ -12,7 +12,7 @@ int tamanoCadena (char c[])
 }
 
 
-//Funcion para punto 2 - Funciona
+//Funcion para punto 2
 
 int caracterValido(const char cad)
 {
@@ -37,7 +37,7 @@ int cadenaANumero(char cad[])
     return entero;
 }
 
-// Funcion punto 3 - Funciona
+// Funcion para punto 3
 
 void cadenaAMayusculas(char cad[])
 {
@@ -50,7 +50,7 @@ void cadenaAMayusculas(char cad[])
     }
 }
 
-//Funcion punto 4
+// Funcion para punto 4
 
 void eliminarOcurrencias(char cad[], char caracter)
 {
@@ -66,7 +66,7 @@ void eliminarOcurrencias(char cad[], char caracter)
     cad[j]='\0';
 }
 
-// Funcion punto 5
+// Funcion para punto 5
 
 void concatenarCadenas(char cadena1[], char cadena2[])
 {
@@ -80,7 +80,7 @@ void concatenarCadenas(char cadena1[], char cadena2[])
     cadena1[tamanoCadena1]='\0';
 }
 
-// Funcion punto 6
+// Funcion para punto 5
 
 void instertarCaracter(char cad[], char caracter, int i)
 {
@@ -109,7 +109,7 @@ void instertarCaracter(char cad[], char caracter, int i)
 int main(){
     int tamano=0;
 
-    //Punto 1 - Funciona
+    //Punto 1
 
     char cadena[100];
     printf("Ingrese la cadena para calcular el tamano: ");
@@ -121,7 +121,7 @@ int main(){
     tamano = tamanoCadena(cadena);  //Luego, calculamos su valor nuevamente con esta modificación.
     printf("Tamano: %d\n",tamano);  //Este paso se repite en las cadenas de los otros puntos.
 
-    // Punto 2 - Funciona
+    // Punto 2
 
     char cadenaNum[100];
     printf("Ingrese la cadena de digitos a convertir: ");
@@ -129,7 +129,7 @@ int main(){
     fgets(cadenaNum, sizeof(cadenaNum), stdin);
     printf("%d\n", cadenaANumero(cadenaNum));
 
-    // Punto 3 - Funciona
+    // Punto 3
 
     char cadenaAMayus[100];
     printf("Ingrese la cadena a pasar a mayusculas: ");
